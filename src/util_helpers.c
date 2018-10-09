@@ -101,8 +101,6 @@ uint32_t rust_crypto_util_fixed_time_eq_asm(uint8_t* lhsp, uint8_t* rhsp, size_t
 }
 #endif
 
-}
-
 #ifdef __aarch64__
 uint32_t rust_crypto_util_fixed_time_eq_asm(uint8_t* lhsp, uint8_t* rhsp, size_t count) {
     if (count == 0) {
